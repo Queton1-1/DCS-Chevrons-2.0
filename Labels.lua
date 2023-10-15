@@ -2,6 +2,16 @@
 -- Copyright (C) 2018, Eagle Dynamics.
 
 
+--%%% JGi | Quéton 1-1 ADDS %%%
+--> Set VR true or false
+local enableVR = true
+--> Set font size, default label size = 13
+local newFontSize = 30
+local newFontSizeVR = 10
+--> Don't modify these lines
+local fontSize = 13
+if enableVR == true then fontSize = newFontSizeVR else fontSize = newFontSize end
+
 
 -- labels =  0  -- NONE
 -- labels =  1  -- FULL
@@ -17,7 +27,8 @@ AirOn			 		= false
 GroundOn 		 		= true
 NavyOn		 	 		= false
 WeaponOn 		 		= false
-labels_format_version 	= 2 -- labels format vesrion
+labels_format_version 	= 2 -- labels format version
+
 ---------------------------------
 -- Label text format symbols
 -- %N - name of object
@@ -212,11 +223,7 @@ LEVEL_NEUTRAL_DOT = {
 	-- text_blur_type = 1 - 3x3 pixels
 	-- text_blur_type = 2 - 5x5 pixels
 	--font_properties =  {"DejaVuLGCSans.ttf", 13, 0, 0, 0},
-
-	--> Non VR
-	font_properties =  {"DejaVuLGCSans.ttf", 30, 0, 0, 0},
-	--> VR
-	--font_properties =  {"DejaVuLGCSans.ttf", 10, 0, 0, 0},
+	font_properties =  {"DejaVuLGCSans.ttf", fontSize, 0, 0, 0},
 }
 
 --%%% MODIFIED LEVEL_DOT %%%
@@ -288,11 +295,7 @@ LEVEL_DOT = {
 	-- text_blur_type = 1 - 3x3 pixels
 	-- text_blur_type = 2 - 5x5 pixels
 	--font_properties =  {"DejaVuLGCSans.ttf", 13, 0, 0, 0},
-
-	--> Non VR
-	font_properties =  {"DejaVuLGCSans.ttf", 30, 0, 0, 0},
-	--> VR
-	--font_properties =  {"DejaVuLGCSans.ttf", 10, 0, 0, 0},
+	font_properties =  {"DejaVuLGCSans.ttf", fontSize, 0, 0, 0},
 }
 
 LEVEL_ABBREVIATED = {
