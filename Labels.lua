@@ -4,7 +4,7 @@
 
 --%%% JGi | Quéton 1-1 ADDS %%%
 --> Set VR true or false
-local enableVR = true
+local enableVR = false
 --> Set font size, default label size = 13
 local newFontSize = 30
 local newFontSizeVR = 10
