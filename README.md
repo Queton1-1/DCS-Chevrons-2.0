@@ -18,10 +18,10 @@ En mode "point neutre", elle sont quasiment invisibles
 Déposes le script dans ton dossier _\Parties enregistrées\DCS\Config\View_  
 
 Si tu joues en VR, édites le script et cherches ces lignes (2 zones, ligne 219 & ligne 292)  
-_--> Non VR_  
-_font_properties =  {"DejaVuLGCSans.ttf", 30, 0, 0, 0},_  
-_--> VR_  
-_--font_properties =  {"DejaVuLGCSans.ttf", 10, 0, 0, 0},_  
+>_--> Non VR_  
+>_font_properties =  {"DejaVuLGCSans.ttf", 30, 0, 0, 0},_  
+>_--> VR_  
+>_--font_properties =  {"DejaVuLGCSans.ttf", 10, 0, 0, 0},_  
   
 Mets _--_ devant le premier _font_properties_, et enlèves ceux présents devant le deuxième _font_properties_.  
 Répètes l'opération dans la seconde zone.  
