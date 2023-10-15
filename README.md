@@ -14,8 +14,17 @@ En mode "point neutre", elle sont quasiment invisibles
 **Mises à jour / Updates**  
 /!\ Rien n'est jamais parfait, ce script évoluera au fil des idées d'améliorations, des bugs éventuels à corriger et surtout du temps que je peux y consacrer.  
 
-**Installation**  
-Déposes le script dans ton dossier \Parties enregistrées\DCS\Config\View
+**Installation** 
+Déposes le script dans ton dossier \Parties enregistrées\DCS\Config\View  
+
+Si tu joues en VR, édites le script et cherches ces lignes (2 zones, ligne 219 & ligne 292)  
+--> Non VR  
+font_properties =  {"DejaVuLGCSans.ttf", 30, 0, 0, 0},  
+--> VR  
+--font_properties =  {"DejaVuLGCSans.ttf", 10, 0, 0, 0},  
+  
+Mets -- devant le premier "font_properties", et enlèves ceux présents devant le deuxième "font_properties".  
+Répètes l'opération dans la seconde zone.  
 
 **Utilisation**  
 Rien à faire.
