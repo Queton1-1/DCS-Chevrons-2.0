@@ -1,4 +1,4 @@
-# DCS-Persistent-World-Script
+# DCS-Chevrons-2.0
 
 Pour télécharger la deénière version du script, rdv à la page [Releases](https://github.com/Queton1-1/DCS-Chevrons-2.0/releases)
 
