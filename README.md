@@ -15,15 +15,15 @@ En mode "point neutre", elle sont quasiment invisibles
 /!\ Rien n'est jamais parfait, ce script évoluera au fil des idées d'améliorations, des bugs éventuels à corriger et surtout du temps que je peux y consacrer.  
 
 **Installation** 
-Déposes le script dans ton dossier \Parties enregistrées\DCS\Config\View  
+Déposes le script dans ton dossier _\Parties enregistrées\DCS\Config\View_  
 
 Si tu joues en VR, édites le script et cherches ces lignes (2 zones, ligne 219 & ligne 292)  
---> Non VR  
-font_properties =  {"DejaVuLGCSans.ttf", 30, 0, 0, 0},  
---> VR  
---font_properties =  {"DejaVuLGCSans.ttf", 10, 0, 0, 0},  
+_--> Non VR_  
+_font_properties =  {"DejaVuLGCSans.ttf", 30, 0, 0, 0},_  
+_--> VR_  
+_--font_properties =  {"DejaVuLGCSans.ttf", 10, 0, 0, 0},_  
   
-Mets -- devant le premier "font_properties", et enlèves ceux présents devant le deuxième "font_properties".  
+Mets _--_ devant le premier _font_properties_, et enlèves ceux présents devant le deuxième _font_properties_.  
 Répètes l'opération dans la seconde zone.  
 
 **Utilisation**  
