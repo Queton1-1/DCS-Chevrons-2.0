@@ -10,6 +10,8 @@ En mode "symbole uniquement", elles sont visibles de trop loin et de manière tr
   
 En mode "point neutre", elle sont quasiment invisibles  
 -> Elles sont maintenant visibles également à partir de 12kms, de manière progressive et de couleur violette.  
+  
+Aussi, seul les chevrons pour les cibles au sol sont affichés (Avions, Missiles et Bateaux off)
 
 **Mises à jour / Updates**  
 /!\ Rien n'est jamais parfait, ce script évoluera au fil des idées d'améliorations, des bugs éventuels à corriger et surtout du temps que je peux y consacrer.  
