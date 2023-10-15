@@ -214,9 +214,9 @@ LEVEL_NEUTRAL_DOT = {
 	--font_properties =  {"DejaVuLGCSans.ttf", 13, 0, 0, 0},
 
 	--> Non VR
-	--font_properties =  {"DejaVuLGCSans.ttf", 30, 0, 0, 0},
+	font_properties =  {"DejaVuLGCSans.ttf", 30, 0, 0, 0},
 	--> VR
-	font_properties =  {"DejaVuLGCSans.ttf", 10, 0, 0, 0},
+	--font_properties =  {"DejaVuLGCSans.ttf", 10, 0, 0, 0},
 }
 
 --%%% MODIFIED LEVEL_DOT %%%
@@ -290,9 +290,9 @@ LEVEL_DOT = {
 	--font_properties =  {"DejaVuLGCSans.ttf", 13, 0, 0, 0},
 
 	--> Non VR
-	--font_properties =  {"DejaVuLGCSans.ttf", 30, 0, 0, 0},
+	font_properties =  {"DejaVuLGCSans.ttf", 30, 0, 0, 0},
 	--> VR
-	font_properties =  {"DejaVuLGCSans.ttf", 10, 0, 0, 0},
+	--font_properties =  {"DejaVuLGCSans.ttf", 10, 0, 0, 0},
 }
 
 LEVEL_ABBREVIATED = {
