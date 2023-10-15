@@ -9,7 +9,7 @@ En mode "symbole uniquement", elles sont visibles de trop loin et de manière tr
 -> Elles sont maintenant visibles à partir de 12kms de manière progressive, coloré suivant la coalition.
   
 En mode "point neutre", elle sont quasiment invisibles  
--> Elles sont maintenant visibles également à partir de 12kms, de manière progressives et de couleur violette.  
+-> Elles sont maintenant visibles également à partir de 12kms, de manière progressive et de couleur violette.  
 
 **Mises à jour / Updates**  
 /!\ Rien n'est jamais parfait, ce script évoluera au fil des idées d'améliorations, des bugs éventuels à corriger et surtout du temps que je peux y consacrer.  
